@@ -47,6 +47,7 @@ export const NAV_LINKS = [
   { label: 'Private Label', href: '/specifications' },
   { label: 'Global Presence', href: '/global-presence' },
   { label: 'Media', href: '/media' },
+  { label: 'Blog', href: '/blog' },
   { label: 'Investors', href: '/investors' },
   { label: 'Contact', href: '/contact' },
 ]

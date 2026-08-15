@@ -135,9 +135,14 @@ export function SiteFooter() {
           <span>
             &copy; {new Date().getFullYear()} {COMPANY.name} All rights reserved.
           </span>
-          <Link href="/privacy" className="transition-colors hover:text-gold">
-            Privacy Policy
-          </Link>
+          <div className="flex items-center gap-6">
+            <Link href="/privacy" className="transition-colors hover:text-gold">
+              Privacy Policy
+            </Link>
+            <Link href="/admin/blog" className="text-xs text-gold/80 hover:text-gold transition-colors">
+              CRM Admin Portal ↗
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
